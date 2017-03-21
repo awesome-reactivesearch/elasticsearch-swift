@@ -12,6 +12,7 @@
 		85F70E5F1E80958E00800428 /* ElasticSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F70E511E80958E00800428 /* ElasticSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85F70E691E80977700800428 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F70E681E80977700800428 /* API.swift */; };
 		85F70E6D1E80B19100800428 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F70E6C1E80B19100800428 /* StringExtension.swift */; };
+		85F70E6F1E81A27000800428 /* ElasticSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F70E6E1E81A27000800428 /* ElasticSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		85F70E5E1E80958E00800428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F70E681E80977700800428 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		85F70E6C1E80B19100800428 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		85F70E6E1E81A27000800428 /* ElasticSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		85F70E501E80958E00800428 /* ElasticSearch */ = {
 			isa = PBXGroup;
 			children = (
+				85F70E6E1E81A27000800428 /* ElasticSearch.swift */,
 				85F70E511E80958E00800428 /* ElasticSearch.h */,
 				85F70E521E80958E00800428 /* Info.plist */,
 				85F70E681E80977700800428 /* API.swift */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F70E6F1E81A27000800428 /* ElasticSearch.swift in Sources */,
 				85F70E6D1E80B19100800428 /* StringExtension.swift in Sources */,
 				85F70E691E80977700800428 /* API.swift in Sources */,
 			);
@@ -408,6 +412,7 @@
 				85F70E641E80958E00800428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F70E651E80958E00800428 /* Build configuration list for PBXNativeTarget "ElasticSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				85F70E671E80958E00800428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
