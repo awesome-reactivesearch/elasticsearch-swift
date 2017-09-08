@@ -81,7 +81,7 @@ class API: NSObject {
                 return
             }
             
-            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode >= NetworkError.Success.code{
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != NetworkError.Success.code{
                 
                 
                 
